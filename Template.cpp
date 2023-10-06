@@ -23,15 +23,15 @@ istream& operator>>(istream& in, vector<T> &vec){
     }
     return in;
 }
-void solve(){
+void solve(int test_case){
 
 }
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int t;
+    int t = 1;
     cin>>t;
-    while(t--){
-        solve();
+    for(int i=1;i<=t;i++){
+        solve(i);
     }
 }
