@@ -1,6 +1,4 @@
 #include <bits/stdc++.h>
-#define mp make_pair
-#define pb push_back
 using namespace std;
 using ll = long long int;
 template<typename T>
